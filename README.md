@@ -1,3 +1,4 @@
+#GENERATED AI GUIDE CONTENT 
 # Multi-Tenant B2B SaaS Mock Analytics Tool — Expert Build Guide
 
 **Stack:** Java 21 + Spring Boot 3.x (REST API) · Angular 17+ (standalone components) · PostgreSQL
