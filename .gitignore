@@ -1,0 +1,32 @@
+# ── IDE ─────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── AI assistant / tooling config folders ───────────
+# Blanket-ignore every hidden directory (AI configs, tool caches, etc.)
+# then re-include the few dot-folders the project actually needs.
+.*/
+!.git/
+!.github/
+!.mvn/
+
+# Common AI assistant folders (also covered by .*/ above, listed for clarity)
+.claude/
+.cursor/
+.aider*/
+.continue/
+.codeium/
+.windsurf/
+.roo/
+.cline/
+.gemini/
+.amazonq/
+.tabnine/
+.cody/
+
+# Hidden config files sometimes dropped by AI tools
+.aider.*
+.cursorignore
+CLAUDE.local.md
